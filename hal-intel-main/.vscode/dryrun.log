@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: *** No targets specified and no makefile found.  Stop.
+
+make.exe: Entering directory `/c/Users/Admin/Downloads/hal-intel-main/hal-intel-main'
+make.exe: Leaving directory `/c/Users/Admin/Downloads/hal-intel-main/hal-intel-main'
+ 

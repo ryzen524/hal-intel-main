@@ -1,0 +1,299 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i686-pc-msys
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Sun Dec  1 09:13:39 2024
+
+# Variables
+
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatic
+?F = $(notdir $?)
+# environment
+POWERSHELL_TELEMETRY_OPTOUT = 1
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+ 
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /c/Users/Admin/Downloads/hal-intel-main/hal-intel-main
+# default
+SHELL := /bin/sh
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = /tmp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\Admin\Downloads\hal-intel-main
+# environment
+PATH = /c/Users/Admin/.vscode/extensions/cl.eide-3.20.1/res/tools/win32/unify_builder:/c/Users/Admin/.eide/bin/builder/utils:/c/Users/Admin/.eide/bin/scripts:/c/Users/Admin/.vscode/extensions/cl.eide-3.20.1/res/tools/win32/7z:/c/Users/Admin/.vscode/extensions/cl.eide-3.20.1/res/tools/win32/utils:.:/usr/bin:/c/Program Files/Python313/Scripts/:/c/Program Files/Python313/:/c/VulkanSDK/1.3.296.0/Bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files/dotnet/:/c/Program Files/Docker/Docker/resources/bin:/c/Program Files/CMake/bin:/c/Program Files (x86)/Windows Kits/10/Microsoft Application Virtualization/Sequencer/:/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/c/Program Files/PowerShell/7/:/c/Program Files/Git/cmd:/c/Users/Admin/AppData/Local/Microsoft/WindowsApps:.:/c/Users/Admin/AppData/Local/tkmm/bin:/c/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/Admin/.dotnet/tools
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Admin
+# environment
+!C: = c:\Users\Admin\Downloads\hal-intel-main\hal-intel-main
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+EIDE_BINARIES_VER = 12.0.1
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+VK_SDK_PATH = C:\VulkanSDK\1.3.296.0
+# automatic
+%F = $(notdir $%)
+# environment
+DOTNET_ROLL_FORWARD = Major
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10720_XVRNMFDVNYASDWQW
+# environment
+IGCCSVC_DB = AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1di964jo9EqMz0IbYED5vQQAAAACAAAAAAAQZgAAAAEAACAAAAA6TsG6BHM0fn4pIYOTpcYXUyM++DkS1P0fWZ+y2MycKgAAAAAOgAAAAAIAACAAAAB9LCOGVOr/kh68TpZsvJ9oQTbshAZirISHpSB+bHB6a2AAAACCZ39JFddabfSFi4oi6L8SzjiYvpFJ8uemrC1NYXqMzJ1cEdnRvgo7vIn48Cpk7AF7spmHvPyOVVmyRgrFD0xSyvLdhcCnL1xyuSFA4RVpOzCTYpp1z+1A2jjM8HPgFOVAAAAAOY21lFrithOrp84k13hqL9xb/3Y2JAFjaSYE7pwXUYOv6WtedEKvmmn4oP4GiAK0PpQ7KscC/BLsOGbl7cDHPQ==
+# environment
+COMPUTERNAME = DESKTOP-7M1HPOF
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Admin
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Admin\AppData\Roaming\Code\CachedData\f1a4fb101478ce6ec82fe9627c43efbf9e98c813
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-7M1HPOF
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-7M1HPOF
+# environment
+EIDE_TOOL_OPENOCD = .
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# default
+MAKE_VERSION := 3.81
+# environment
+NODE_UNC_HOST_ALLOWLIST = wsl.localhost
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+EIDE_MSYS = C:\Users\Admin\.eide\bin\builder\msys\bin
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Admin\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvPkgConverter;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvSequencer
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\6dad4cc6-1.95.3-main-sock
+# environment
+HOMEPATH = \
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Admin\AppData\Roaming
+# environment
+TEMP = /tmp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9a03
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+MAKELEVEL := 0
+# environment
+VULKAN_SDK = C:\VulkanSDK\1.3.296.0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = cygwin
+# environment
+VSCODE_PID = 10720
+# environment
+DOTNET_CLI_TELEMETRY_OPTOUT = 1
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-7M1HPOF
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=10/119=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16523, inode 1258811): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+ 
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+ 
+
+# Finished Make data base on Sun Dec  1 09:13:39 2024
+
+ 
